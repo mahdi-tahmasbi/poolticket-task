@@ -90,8 +90,8 @@ app/
 ### 🚧 API Endpoints Used
 
 ```bash
-GET   https://json.xstack.ir/api/v1/posts           # Fetch all posts
-GET   https://json.xstack.ir/api/v1/post/{slug}     # Fetch single post
+GET   https://jsonplaceholder.typicode.com/posts           # Fetch all posts
+GET   https://jsonplaceholder.typicode.com/posts/{slug}     # Fetch single post
 POST  https://jsonplaceholder.typicode.com/posts    # Submit new post
 ```
 
@@ -135,7 +135,7 @@ POST  https://jsonplaceholder.typicode.com/posts    # Submit new post
 3. Set environment variable in `.env.local`:
 
    ```
-   NEXT_PUBLIC_API_URL=https://json.xstack.ir/api/v1
+   NEXT_PUBLIC_API_URL=https://jsonplaceholder.typicode.com/
    ```
 
 4. Run the development server:
