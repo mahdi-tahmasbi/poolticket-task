@@ -58,14 +58,14 @@ app/
 
 #### ✅ Home Page (`/`)
 
-- دریافت لیست پست‌ها از API (`https://json.xstack.ir/api/v1/posts`)
+- دریافت لیست پست‌ها از API (`https://jsonplaceholder.typicode.com/posts`)
 - نمایش ۱۰ پست در هر صفحه
 - جستجوی عنوان پست‌ها (client-side)
 - صفحه‌بندی (pagination)
 
 #### ✅ Details Page (`/posts/:id`)
 
-- دریافت جزئیات یک پست از API (`https://json.xstack.ir/api/v1/post/{slug}`)
+- دریافت جزئیات یک پست از API (`https://jsonplaceholder.typicode.com/posts/{slug}`)
 - نمایش عنوان، متن، ID پست و ID کاربر
 
 #### ✅ Submit Page (`/submit`)
